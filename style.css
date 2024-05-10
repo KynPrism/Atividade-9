@@ -2,4 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+--co
+
+
+
+:root {
+    --main-background: blueviolet;
+    --nav-background: green;
+
+}
+
+body {
+    background: var(--main-background);
+    color: var(gray);
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background: var(--nav-background);
 }
